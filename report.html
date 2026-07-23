@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Reconnaissance Report</title>
+<style>
+  body { background-color: #0f141c; color: #e1e4e8; font-family: 'Courier New', monospace; padding: 25px; }
+  .header { border-bottom: 2px dashed #28a745; padding-bottom: 15px; margin-bottom: 20px; }
+  h1 { color: #28a745; font-size: 22px; margin: 0 0 10px 0; }
+  .meta { color: #79c0ff; font-size: 14px; margin-bottom: 5px; }
+  ul { list-style-type: none; padding: 0; }
+  li { margin: 8px 0; color: #85e89d; }
+  .path { color: #ffea00; font-weight: bold; }
+</style>
+</head>
+<body>
+  <div class='header'>
+    <h1>[+] RECONNAISSANCE REPORT</h1>
+    <div class='meta'><b>TARGET:</b> http://localhost:5000</div>
+    <div class='meta'><b>DATE:</b> 2026-07-23 11:57:42</div>
+  </div>
+  <h2>[i] Discovered Paths:</h2>
+  <ul>
+    <li>[403] http://localhost:5000/admin</li>
+    <li>[403] http://localhost:5000/login</li>
+    <li>[403] http://localhost:5000/dashboard</li>
+    <li>[403] http://localhost:5000/backup</li>
+    <li>[403] http://localhost:5000/secret</li>
+  </ul>
+</body>
+</html>
